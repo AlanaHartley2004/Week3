@@ -1,5 +1,5 @@
-print(50 >= 50)
-print(100 != 100)
-print("a" < "b")
-print("b" < "a")
-print("john" < "terry")
+age = 30
+print(age >=18 and age <=66)
+print((age >=18 and age <=65) and (not age==30))
+
+
