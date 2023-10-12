@@ -1,5 +1,15 @@
-age = 30
-print(age >=18 and age <=66)
-print((age >=18 and age <=65) and (not age==30))
+age = int(input("what is your age"))
+if age > 100:
+    print("you are very old")
+    print("well done")
 
+elif age > 80:
+    print("you are fairly old")
+    print("pretty good")
 
+elif age > 40:
+    print("you are middle aged")
+    print("neve mind")
+
+else:
+    print("you are not very old")
